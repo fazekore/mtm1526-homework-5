@@ -1,0 +1,75 @@
+html {
+	height: auto;
+	margin:0 auto;
+	background-image: url(../images/Render_Basketball_Court_by_PhreshSoldier.jpg);
+	background-repeat:no-repeat
+}
+
+h2{
+	text-align:center;
+	font-size:50px;
+	font-family: Impact;
+	color:#FFF;
+}
+
+.wrapper {
+			width: 1250px;
+			margin: 0 auto;
+}
+
+.tabs a,
+.tabs a:link,
+.tabs a:visited {
+			color:#06C;
+			text-decoration:none;
+			font-size: 1.5em;
+}
+
+.tabs a:hover,
+.tabs a:focus,
+.tabs a:active {
+			width: 200px;
+			height: 50px;
+			text-decoration:none;
+			color:#F00;
+			background-color: #CFF;
+}
+
+.tabs {
+			margin:0 auto;
+			padding:0;
+			list-style-type:none;
+			text-align:center;
+			display:inline;
+			color:#fff;
+
+}
+
+.tabs li {
+			margin:0 auto;
+			width: 300px;
+			float: left;
+			position: relative;
+			text-align:center;
+			background-color:#FFF;
+
+}
+
+.tabs li a {
+			z-index:20;
+			display:inline-block;
+			position:relative;
+}
+
+.maravich,
+.jordan,
+.thomas,
+.olajuwon {
+			margin: 1em;
+			position:absolute;
+			z-index:100;
+ }
+ .tabfill {
+	 width: 600px;
+	 margin: 0 auto;
+ }
